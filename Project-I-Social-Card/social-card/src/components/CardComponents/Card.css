@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+.card-container {
+	display: flex;
+	/* justify-content: flex-end; */
+	flex-direction: column;
+}
+
+.card-banner {
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.react-bg {
+	width: 540px;
+	height: 300px;
+	background-image: url("https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	justify-content: flex-end;
+}
+
+.card-content-div {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card-content {
+	width: 540px;
+}
+
+.card-content p {
+	margin: 0;
+	padding-bottom: 10px;
+}

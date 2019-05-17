@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+
+.main-header {
+	padding: 5px;
+	/* margin-left: 10px; */
+	/* border: 1px solid blue; */
+	display: flex;
+}
+.logo-img {
+	/* border: 1px solid red; */
+	width: 65px;
+	padding: 10px;
+}
+
+.main-title {
+	padding: 0;
+	margin: 0;
+}
+.handle {
+	padding-top: 2px;
+	margin: 0;
+}
+
+.timestamp {
+	padding-top: 2px;
+	margin: 0 0 0 25px;
+}
+
+.post-engagement p {
+	margin: 0;
+	padding: 0;
+}
+.styled-title {
+	display: flex;
+}
+
+h1 {
+	font-size: 18px;
+}
+h2 {
+	color: grey;
+	font-size: 12px;
+}

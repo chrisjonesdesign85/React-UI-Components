@@ -2,3 +2,15 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+#root {
+	/* border: 1px solid red; */
+	width: 625px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+img {
+	width: 62px;
+	border-radius: 50%;
+}

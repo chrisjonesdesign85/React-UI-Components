@@ -1,6 +1,10 @@
 import React from 'react';
 import './Card.css';
 
-const CardBanner = () => <div class="card-banner" />;
-
+const CardBanner = () => {
+    return (
+        <div className="react-bg">
+        </div>
+    );
+}
 export default CardBanner;
